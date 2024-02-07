@@ -387,6 +387,7 @@ li {
   .about {
     flex-direction: column-reverse;
   }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -397,3 +398,42 @@ li {
     display: none;
   }
 }
+/* ------------------ deuxième partie ---------------------  */
+
+@media screen and (max-width: 1024px) {
+  .description__container{
+   display: center;
+   text-align: center;
+  }
+  .photo{
+    flex-direction: column;
+    text-align: center;
+  }
+  .expertise__description {
+    padding: var(--description-padding);
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50%;
+  }
+  .expertise__container{
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (min-width: 1025px){
+  .description__container{
+    display: block;
+    text-align: center;
+  }
+  .photo{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
